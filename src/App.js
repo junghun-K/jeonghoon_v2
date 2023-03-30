@@ -134,7 +134,7 @@ function App() {
           fontSize: '1rem',
           textDecoration: 'none',
         }}>
-          Senior Stuedent at University of Minnesota, Twin-Cities
+          Senior Student at University of Minnesota, Twin-Cities
         </Typography>
         <Typography variant='h5'
         sx={{
@@ -484,6 +484,7 @@ function App() {
         </Container>
       </Container>
       </Container>
+      {/* Projects */}
     </Container>
   );
 }
