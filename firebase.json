@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "jeonghoonkim-d4f87",
     "public": "build",
     "ignore": [
       "firebase.json",
