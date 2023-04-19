@@ -189,7 +189,7 @@ function App() {
             <EmailIcon></EmailIcon>
             <Typography sx={{paddingLeft:'3px', fontSize:'13px'}}>Email</Typography>
           </Button>
-          <Button variant="outlined" color='warning' href="https://www.linkedin.com/in/junghun-kim-42362a24b/" sx={{minWidth:'80px', padding: '3px 9px'}}>
+          <Button variant="outlined" color='warning' href="https://www.linkedin.com/in/jeonghoon-kimx/" sx={{minWidth:'80px', padding: '3px 9px'}}>
             <LinkedInIcon></LinkedInIcon>
             <Typography sx={{paddingLeft:'3px', fontSize:'13px'}}>LinkedIn</Typography>
           </Button>
@@ -264,7 +264,7 @@ function App() {
                 color="text.secondary"
                 fontSize='0.875rem'
               >
-                May 2022 - Sept 2022
+                March 2021 - Sept 2022
               </TimelineOppositeContent>
               <TimelineSeparator>
                 <TimelineConnector />
@@ -278,7 +278,7 @@ function App() {
                 <Link href="https://www.tesser.co.kr/" fontSize={'1rem'} underline="none">
                     Tesser Inc.</Link>
                 </Typography>
-                <Typography sx={{fontSize:'1rem'}}>Data Scientist Intern</Typography>
+                <Typography sx={{fontSize:'1rem'}}>Data Scientist</Typography>
               </TimelineContent>
             </TimelineItem>
             <TimelineItem>
@@ -288,7 +288,7 @@ function App() {
                 color="text.secondary"
                 fontSize='0.875rem'
               >
-                Mar 2021 - Dec 2021
+                Feb 2019 - Sept 2020
               </TimelineOppositeContent>
               <TimelineSeparator>
                 <TimelineConnector />
@@ -299,17 +299,18 @@ function App() {
               </TimelineSeparator>
               <TimelineContent sx={{ py: '12px', px: 2 }}>
                 <Typography variant="h6" component="span">
-                  <Link href="https://www.tesser.co.kr/" fontSize={'1rem'} underline="none">
-                  Tesser Inc.</Link>
+                  <Link href="https://www.linkedin.com/company/republic-of-korea-army/" fontSize={'1rem'} underline="none"> 
+                    Republic of Korea Army 
+                  </Link>  
                 </Typography>
-                <Typography sx={{fontSize:'1rem'}}>Data Engineer Intern</Typography>
+                <Typography sx={{fontSize:'1rem'}}>Military Driver</Typography>
               </TimelineContent>
-            </TimelineItem> 
-          </Timeline>
-
-          <Button variant="outlined" href={Resume} target="_blank" startIcon={<DescriptionIcon />}>
+            </TimelineItem>
+            </Timeline>
+{/* Resume */}
+          {/* <Button variant="outlined" href={Resume} target="_blank" startIcon={<DescriptionIcon />}>
             resume
-          </Button>
+          </Button> */}
           
         {/* PROJECTS */}
         <Container sx={{marginTop: '80px', mx: '0px'}}>
